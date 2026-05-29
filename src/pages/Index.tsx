@@ -100,11 +100,11 @@ export default function Index() {
           </nav>
 
           <a
-            href="tel:+73472000000"
+            href="tel:+79991309131"
             className="hidden md:flex items-center gap-2 bg-gold hover:bg-gold-light text-navy-950 font-oswald font-semibold text-sm px-5 py-2 transition-colors duration-200 tracking-wider"
           >
             <Icon name="Phone" size={14} />
-            +7 (347) 200-00-00
+            +7 (999) 130-91-31
           </a>
 
           <button
@@ -127,10 +127,10 @@ export default function Index() {
               </button>
             ))}
             <a
-              href="tel:+73472000000"
+              href="tel:+79991309131"
               className="mt-2 bg-gold text-navy-950 font-oswald font-semibold text-sm px-4 py-3 text-center tracking-wider"
             >
-              +7 (347) 200-00-00
+              +7 (999) 130-91-31
             </a>
           </div>
         )}
@@ -166,7 +166,7 @@ export default function Index() {
                 ОЦЕНИТЬ АВТО
               </button>
               <a
-                href="tel:+73472000000"
+                href="tel:+79991309131"
                 className="border border-white/30 hover:border-gold text-white hover:text-gold font-oswald font-medium text-base px-8 py-4 tracking-widest transition-all duration-200 text-center"
               >
                 ПОЗВОНИТЬ
@@ -475,11 +475,11 @@ export default function Index() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+73472000000"
+              href="tel:+79991309131"
               className="bg-gold hover:bg-gold-light text-navy-950 font-oswald font-semibold text-lg px-10 py-4 tracking-widest transition-all duration-200 hover:scale-[1.02] flex items-center justify-center gap-3"
             >
               <Icon name="Phone" size={18} />
-              +7 (347) 200-00-00
+              +7 (999) 130-91-31
             </a>
             <button
               onClick={() => scrollTo("#estimate")}
@@ -507,8 +507,8 @@ export default function Index() {
 
               <div className="space-y-6">
                 {[
-                  { icon: "Phone", label: "Телефон", val: "+7 (347) 200-00-00", sub: "Звонки с 8:00 до 22:00" },
-                  { icon: "MessageCircle", label: "WhatsApp / Telegram", val: "+7 (347) 200-00-00", sub: "Пишите в любое время" },
+                  { icon: "Phone", label: "Телефон", val: "+7 (999) 130-91-31", sub: "Звонки с 8:00 до 22:00" },
+                  { icon: "MessageCircle", label: "WhatsApp / Telegram", val: "+7 (999) 130-91-31", sub: "Пишите в любое время" },
                   { icon: "MapPin", label: "Адрес", val: "г. Уфа, ул. Примерная, 1", sub: "Офис работает ежедневно" },
                   { icon: "Clock", label: "График работы", val: "Ежедневно с 8:00 до 22:00", sub: "Выезд оценщика — круглосуточно" },
                 ].map((c) => (
