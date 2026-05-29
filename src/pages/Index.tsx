@@ -509,7 +509,7 @@ export default function Index() {
                 {[
                   { icon: "Phone", label: "Телефон", val: "+7 (999) 130-91-31", sub: "Звонки с 8:00 до 22:00" },
                   { icon: "MessageCircle", label: "WhatsApp / Telegram", val: "+7 (999) 130-91-31", sub: "Пишите в любое время" },
-                  { icon: "MapPin", label: "Адрес", val: "г. Уфа, ул. Примерная, 1", sub: "Офис работает ежедневно" },
+                  { icon: "MapPin", label: "Адрес", val: "г. Уфа, Республика Башкортостан", sub: "Офис работает ежедневно" },
 
                 ].map((c) => (
                   <div key={c.label} className="flex items-start gap-4">
